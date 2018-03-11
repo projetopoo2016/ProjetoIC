@@ -1,0 +1,37 @@
+{
+  "name": "projetoic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projetopoo2016/ProjetoIC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projetopoo2016/ProjetoIC.git/issues"
+  },
+  "homepage": "https://github.com/projetopoo2016/ProjetoIC.git#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "exphbs": "^1.2.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-router": "0.0.1",
+    "express-static": "^1.2.5",
+    "favicon": "0.0.2",
+    "handlebars": "^4.0.11",
+    "morgan": "^1.9.0",
+    "mssql": "^4.1.0",
+    "nodemon": "^1.17.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {},
+  "description": ""
+}
