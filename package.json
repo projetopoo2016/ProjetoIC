@@ -1,7 +1,7 @@
 {
   "name": "projetoic",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -30,7 +30,8 @@
     "mssql": "^4.1.0",
     "nodemon": "^1.17.1",
     "path": "^0.12.7",
-    "serve-favicon": "^2.4.5"
+    "serve-favicon": "^2.4.5",
+    "survey-editor": "^1.0.0"
   },
   "devDependencies": {},
   "description": ""

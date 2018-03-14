@@ -6,8 +6,17 @@ var router = express.Router()
 router.get('/', function(req, res) {
     res.render('main');
   });
+  
   router.get('/about', function(req, res) {
     res.render('about');
+  });
+
+  router.get('/survey', function(req, res) {
+    res.render('survey');
+  });
+  
+  router.get('/surveyeditor', function(req, res) {
+    res.render('surveyeditor');
   });
 
   module.exports = router;
