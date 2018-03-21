@@ -6,7 +6,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var router = require('express-router');
-var app = express();
+var app = express()
 
 
 //midleware path
@@ -31,9 +31,6 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-
-
-
 
 app.use('/', index);
 app.use('/users', users);

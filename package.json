@@ -25,11 +25,13 @@
     "express-router": "0.0.1",
     "express-static": "^1.2.5",
     "favicon": "0.0.2",
+    "grunt": "^1.0.2",
     "handlebars": "^4.0.11",
     "morgan": "^1.9.0",
     "mssql": "^4.1.0",
     "nodemon": "^1.17.2",
     "path": "^0.12.7",
+    "pickadate": "^3.5.6",
     "serve-favicon": "^2.4.5",
     "survey-editor": "^1.0.0"
   },
