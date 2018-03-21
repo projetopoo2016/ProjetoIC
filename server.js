@@ -25,4 +25,19 @@ sql.connect(config, function (err) {
         res.send(recordset);
         
     });
+
+    function login() 
+{
+   var data="hello";
+   $.get("http://localhost/ws/service.asmx/HelloWord", function(response) {
+        data = response;
+   }).error(function(){
+  alert("Sorry could not proceed");
+});
+
+   return data;
+}
+
+
+
 });

@@ -19,4 +19,11 @@ router.get('/', function(req, res) {
     res.render('surveyeditor');
   });
 
+  router.get('/resultados', function(req, res) {
+    res.render('resultados');
+  });
+
+  router.get('/login', function(req, res) {
+    res.render('login');
+  });
   module.exports = router;
