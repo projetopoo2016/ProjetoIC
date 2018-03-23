@@ -6,15 +6,16 @@ var surveyJSON = {"cookieName":"20170601","pages":[{"name":"page1","elements":[{
 /* ACEDER A VARIAVEIS DO JSON
 surveyJSON.pages[0].name
 */
-
   var survey = new Survey.Model(surveyJSON);
   $("#surveyContainer").Survey({
       model:survey,
       onComplete:sendDataToServer
     });
 
+
+});
+
 function sendDataToServer(survey) {
     //send Ajax request to your web server.
     alert("The results are:" + JSON.stringify(survey.data));
 }
-});

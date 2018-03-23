@@ -4,7 +4,8 @@ var router = express.Router()
 
 /* GET home page. */
 router.get('/', function(req, res) {
-    res.render('main');
+    res.render('index');
+
   });
   
   router.get('/about', function(req, res) {
@@ -21,6 +22,10 @@ router.get('/', function(req, res) {
 
   router.get('/resultados', function(req, res) {
     res.render('resultados');
+  });
+
+  router.get('/pricing', function(req, res) {
+    res.render('pricing');
   });
 
   router.get('/login', function(req, res) {
